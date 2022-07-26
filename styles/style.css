@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 400px;
+   background-image: url("/img/kk.jpg");
+ overflow-x: hidden;
+ overflow-y: hidden;
+}
+.box{
+  
+   animation-name: boxAnimate;
+   animation-duration: 10s;
+   animation-delay: 1s;
+   animation-direction:alternate;
+   animation-fill-mode: none;
+   animation-iteration-count:;
+   animation-play-state: ;
+}
+
+.card{
+    margin-top: 400px;
+
+}
+
+
+
+ @keyframes boxAnimate{
+ 
+    10%
+    {
+        transform: translateX(0px) translateY(0px) rotate(0deg) scale(2);
+        -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(2);
+        -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(2);
+        -ms-transform: translateX(0px) translateY(0px) rotate(0deg) scale(2);
+        -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(2);
+}
+
+    50%
+    {
+        transform: translateX(200px) translateY(-100px) rotate();
+        transform:scale() ;
+        -webkit-transform: translateX(200px) translateY(-100px) rotate();
+        -moz-transform: translateX(200px) translateY(-100px) rotate();
+        -ms-transform: translateX(200px) translateY(-100px) rotate();
+        -o-transform: translateX(200px) translateY(-100px) rotate();
+}
+    100%
+    {
+        transform: translateX(1500px) translateY(-300px) rotate(0deg) scale(0.5);
+        -webkit-transform: translateX(1500px) translateY(-300px) rotate(0deg) scale(0.5);
+        -moz-transform: translateX(1500px) translateY(-300px) rotate(0deg) scale(0.5);
+        -ms-transform: translateX(1500px) translateY(-300px) rotate(0deg) scale(0.5);
+        -o-transform: translateX(1500px) translateY(-300px) rotate(0deg) scale(0.5);
+}
+
+ 
+
+} 
